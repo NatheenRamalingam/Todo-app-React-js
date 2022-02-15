@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#to-do-form>input{
+  width: 250px;
+  padding: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+}
+button{
+  padding: 15px;
+  margin: 20px;  
+  background-color: dodgerblue;
+  color: white;
+  border: 2px solid white;
+}
+button:hover{
+  background-color: crimson;
+
+}
+
+.list{
+  color: #fff;
+  width: 300px;
+  margin: 20px auto;
+  height: 50px;
+  background-color: #bf07ac;
+  border-radius: 5px;
+}
+.list p{
+  padding: 10px;
+  position: relative;
+  transition: ease-in-out;
+}
+.list p input{
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+}
+.list p input:focus{
+  outline: none;
+}
+.list p span{
+  position: absolute;
+  right: 10px;
+}
+.faicons{
+  margin: 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
